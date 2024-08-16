@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../public/images/cita.jpg'); /* Ruta a la imagen */
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; 
+  }
+  
+  /* Contenedor para el componente RandomPhrase */
+  .random-phrase-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Estilo para la frase */
+  .random-phrase {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para el botón */
+  .random-phrase-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .random-phrase-button:hover {
+    background-color: #0056b3;
+  }
